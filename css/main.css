@@ -1,0 +1,32 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    background-color: #E2AE87;
+    width: 100%;
+    height: 10vh;
+    z-index: 1000;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+/* .navbar a {
+    font-size: 2rem;
+}*/
+body{
+  background :url(../asset/todd-trapani-hCdMjrL5C0Y-unsplash.jpg) center center/ cover fixed;
+}
+.navbar a{
+    font-size: 1.6rem;
+    margin: 1rem;
+    cursor: pointer ;
+    line-height: 1.6rem;
+    flex:auto ;
+  }
+  
+#Mon-bitmoji {
+    height: 26rem;
+    width: 25rem;
+  }

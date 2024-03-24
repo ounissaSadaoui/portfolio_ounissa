@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Ounissa, développeuse .NET et JavaScript">
+    <!-- liens open graph-->
+    <meta property="og:title" content="Mon Portfolio">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="https://ounissasadaoui.github.io/Portfolio/">
+    <meta property="og:domain" content="https://github.com/ounissaSadaoui/Portfolio">
+    <meta property="og:description" content="Portfolio développeuse">
+    <meta property="og:image" content="https://ounissasadaoui.github.io/Portfolio/asset/Sans%20titre.jpeg">
+    <!--change the image from a png to a jpg, i think it will not work-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Mon Portfolio">
+    <meta property="twitter:type" content="Website">
+    <meta property="twitter:url" content="https://ounissasadaoui.github.io/Portfolio/">
+    <meta property="twitter:domain" content="https://github.com/ounissaSadaoui/Portfolio">
+    <meta property="twitter:description" content="Portfolio développeuse">
+    <meta property="twitter:image" content="hhttps://ounissasadaoui.github.io/Portfolio/asset/Sans%20titre.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="manifest" href="./favicon/site.webmanifest">    
+
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+   
+    <title>Mon Portfolio</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation">
+                <a href="#presentation"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;"></i></a>
+                <a href="#mode_nuit"><button id="Btn" aria-labelledby="button light/dark mode"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;"></i></button></a>
+                <a href="#competences"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;"></i></a>
+                <a href="#projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;"></i></a>
+               <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;"></i> -->
+                <a href="#contact"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;"></i></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section id="page_presentation">
+       
+    <figure id="presentation">
+        <h2>Ounissa, développeuse Back-End</h2>
+        <img id= "Mon-bitmoji" src="asset/hello.png" alt="this is my bitmoji saying hello"> <br>
+        <figcaption>
+            <br>
+            Bienvenue ! <br> <br>
+            &nbsp; Je suis <b>Ounissa</b>, étudiante à l'École <b>ITIC Paris</b>, en alternance en tant qu'<b>IT Specialist</b> Chez<b> Dédalus HealthCare France.</b>
+            Dans mes missions principales, je travaille sur du .Net et du JavaScript.
+    </figcaption>
+    </figure>
+    </section>
+
+    <section id="competences">  
+        <h2>Mes compétences:</h2>
+        <br>
+        <ul class="liste_competences">
+            <li>
+              <figure>
+                <i class="fa-solid fa-code fa-xl" style="color: #000000;"></i> 
+                  <figcaption>
+                     Programmation en: <b>Html</b>, <b>Css</b>, <b>JavaScript</b>, <b>C#, .NET </b>, <b> php et Laravel</b>et <b>Java</b>.
+                  </figcaption> 
+               </figure>
+            </li>
+            <li>
+                <figure>
+                 <i class="fa-brands fa-sketch fa-xl" style="color: #000000;"></i>
+                <figcaption>
+                 Création de maquettes et designs sur <b>Figma</b>.
+                </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <i class="fa-solid fa-eye fa-xl" style="color: #000000;"></i> 
+                <figcaption>
+                Respect des <b>normes du W3C</b> et de <b>l'accessiblité</b>.
+            </figcaption>
+         </figure>
+        </li>
+        <li>
+            <figure>
+                <i class="fa-solid fa-person-biking fa-xl" style="color: #000000;"></i> 
+                <figcaption>
+                Travail en équipe et en agilité, avec <b>Scrum</b>.
+           </figcaption>
+            </figure>
+        </li>
+        
+        </ul>
+    </section>
+    
+   <!-- <section id="projets">
+      <br>
+      <br>
+      <div class="container">
+       <h2>
+        Mes projets:
+      </h2>
+      <br>
+
+      <div class="gallery_left">
+      <figure>
+        <a href="https://github.com/ounissaSadaoui/Asteroids" target = "_blank"><img src="./asset/asteroids.png" alt="capture d'ecran projet asteroids"></a>
+        <figcaption>Petit jeu Astéroides, développé en C#</figcaption>
+      </figure>
+      <figure>
+        <a href="https://github.com/ounissaSadaoui/clavier_musical" target = "_blank"><img src="./asset/clavier.png" alt="capture d'écran clavier musical"></a>
+        <figcaption>Clavier Musical fait en JavaScript</figcaption>
+      </figure>
+      <div class="galley_right">
+        <figure>
+        <a href="https://github.com/ounissaSadaoui/horloge_js" target = "_blank"> <img src="./asset/horloge.png" alt="capture d'ecran horloge css js"></a>
+        <figcaption>Horloge en HTML/css et JavaScript</figcaption>
+    </figure>
+      </div>
+      <a href="https://github.com/ounissaSadaoui/uodating-CSS-variables-with-JS" target="_blank"><img src="./asset/project_css_js.png" alt="capture_ecran_projet_js_css"></a> 
+      <a href="https://github.com/ounissaSadaoui/personnel" target="_blank"><img src="./asset/Sans titre.jpeg" alt="representation_projet"></a>
+    </div>
+  </div>
+</section >-->
+<div>
+  <h2>Projets à présenter</h2>
+  <figure>
+    <a href="projet_back.html" target="_blank"> <img src="nothing for now" alt="Projet de gestion des ligues"></a> <!-- Ajouter capture d'écran-->
+    <figcaption>
+        Projet Gestion de ligues
+    </figcaption>
+</figure>
+<figure>
+    <a href="projet_front.html" target="_blank"> <img src="nothing for now" alt="Projet de front"></a> <!-- Ajouter capture d'écran-->
+    <figcaption>
+        Projet De front, reste encore à faire
+    </figcaption>
+</figure>
+<figure>
+  <a href="stage.html" target="_blank"> <img src="nothing for now" alt="Réalisations stage 1ère année"></a> <!-- Ajouter capture d'écran-->
+  <figcaption>
+      Réalisations Stage 1ère année
+  </figcaption>
+</figure>
+<figure>
+  <a href="alternance.html" target="_blank"> <img src="nothing for now" alt="Alternance 2ème année"></a> <!-- Ajouter capture d'écran-->
+  <figcaption>
+     Réalisations Alternance 2ème année
+  </figcaption>
+</figure>
+</div>
+
+<section id="contact"> 
+  <div class="inner-form" role="form" aria-labelledby="inscription"> 
+    <fieldset> <!-- c'est tout ce qui entoure le formulaire-->
+        <legend>
+             <!-- c'est le nom donné au formulaire, -->
+           Me contacter
+        </legend>
+
+        <label for="nom">
+            Nom
+        </label> <!-- dans form, action, on met l'endroit ou on pose la requête, ici notre site à nous-->
+        
+        <form action="index.html" method="post">
+        <input 
+            id="Votre nom"
+            type="text"
+            name="Nom"
+            placeholder="Nom" 
+            autofocus="true"
+            aria-required="true"
+            required
+            ><!-- placeholder c'est ce qui est écrit à l'interieur de la case quand elle est vide
+            et aria-requiered veut dire que le champ est obligatoire, il faut le mettre avec required,
+        mais il a dit trop de trucs vaut mieux rehercher ce point: flou  -->
+        <label for="user-lastname">
+            Prénom
+        </label>
+        <input type="text"
+        id="user-lastname"
+        name="Prenom"
+        placeholder="Prénom"
+        aria-required="true"
+        required> <!-- on ne met pas autofocus ici, parce qu'on n'a qu'un seul curseur, on le met toujours sur le premier elt d'ailleurs-->
+
+        <label for="Email">E-mail</label>
+        <input type="Email"
+        id="email"
+        name="mail"
+        placeholder="E-mail"
+        aria-required="true"
+        required>
+        <!-- les numéros sont gérés par des patters pour controler les formats par exemple-->
+        <label for="tel">Téléphone</label>
+        <input type="tel"
+        id="tel"
+        placeholder="Téléphone"
+        name="phone">
+        
+        <label for="message">Message</label>
+        <input type="text"
+               id="message"
+               placeholder="Veuillez saisir votre message"
+               name="Message"
+               aria-required="true"
+               required>
+        <input type="submit"
+        value="Envoyer">
+    </form>
+    </fieldset>
+</div>
+</section>
+
+   
+<script src="./js/app.js"></script>
+</main>
+<footer>
+  <p>Ounissa 2023</p>
+</footer>
+</body>
+</html>
