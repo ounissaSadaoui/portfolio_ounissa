@@ -1,0 +1,36 @@
+#page_presentation{
+  height: 82vh;
+  margin-top: 9vh;
+}
+  
+#Mon-bitmoji {
+    margin-top: 2rem;
+    height: 30rem;
+    width: 30rem;
+  }
+
+#presentation {
+  margin-top: 4rem;
+  text-align: center;
+  margin: auto;
+  line-height: 2,6rem;
+  font-size: large;
+}
+
+#page_presentation > #presentation > figcaption{
+  background-color: #E2AE87;
+  border-radius: 3rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  line-height: 3rem;
+  padding: 1rem;
+}
+
+#page_presentation > #presentation > figcaption > p {
+  font-size: x-large;
+}
+#page_presentation > #presentation > h2{
+  font-size: xx-large;
+  text-align: center;
+  text-shadow: .5rem .5rem #E2AE87;
+} 
