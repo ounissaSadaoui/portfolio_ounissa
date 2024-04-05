@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Supernatural_Knight';
+    src: url(./font/Supernatural_Knight.ttf);
+}
+#competences{
+    /* background-color: #A7A792; /* sage */
+    max-width: 80%;
+    margin: auto;
+    padding: 4rem;
+    max-height: 92vh;
+  }
+#competences h2 {
+    font-family: 'Supernatural_Knight';
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: .5rem .5rem #E2AE87;
+}
+.liste_competences {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #999987; /*battleship gray, passe encore */
+    border-top-right-radius: 8rem 8rem;
+    border-top-left-radius: 8rem 8rem;
+  }
+  
+  .liste_competences li {
+    width: calc(33% - .7rem); /* 4 compétences en largeur avec un espace entre elles */
+  }
+  figure {
+    text-align: center;
+  }
+  
+  figure i {
+    font-size: 7rem; /* Taille de l'icône plus grande */
+    margin-bottom: 3.0rem;
+    margin-top: 2rem;
+  }
+  
+  figcaption {
+    text-align: left;
+  }
+  
+  figcaption h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  figcaption {
+    font-size: 1.0rem;
+    line-height: 1.4;
+    text-align: center;
+  }

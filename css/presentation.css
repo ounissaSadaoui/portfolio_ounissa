@@ -1,35 +1,42 @@
+@font-face {
+  font-family: 'Supernatural_Knight';
+  src: url(./font/Supernatural_Knight.ttf);
+}
+
 #page_presentation{
-  height: 82vh;
+  max-height: 92vh;
   margin-top: 9vh;
 }
   
 #Mon-bitmoji {
     margin-top: 2rem;
-    height: 30rem;
-    width: 30rem;
+    height: 15rem;
+    width: 15rem;
   }
 
 #presentation {
   margin-top: 4rem;
   text-align: center;
   margin: auto;
-  line-height: 2,6rem;
-  font-size: large;
+  line-height: 1,6rem;
 }
 
 #page_presentation > #presentation > figcaption{
   background-color: #E2AE87;
   border-radius: 3rem;
-  margin-left: 30rem;
-  margin-right: 30rem;
-  line-height: 3rem;
+  text-align: center;
+  margin: auto 15rem  auto 15rem ;
+  justify-content: flex-start;
+  line-height: 1.6rem;
   padding: 1rem;
 }
 
 #page_presentation > #presentation > figcaption > p {
   font-size: x-large;
+  text-shadow: .5rem .5rem #999987;
 }
 #page_presentation > #presentation > h2{
+  font-family: 'Supernatural_Knight';
   font-size: xx-large;
   text-align: center;
   text-shadow: .5rem .5rem #E2AE87;

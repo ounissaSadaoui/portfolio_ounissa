@@ -1,0 +1,31 @@
+#projets{
+    height: 92vh;
+    flex-flow: column;
+    padding: 2rem;
+    margin: auto;
+}
+.projets_ecole {
+    float: left;
+    width: calc(50% - 6rem);
+    background-color: #E2AE87;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.projets_travail{
+    float: right;
+    width: calc(50% - 6rem);
+    background-color: #999987 ;
+    margin-right: 5rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+
+
+}
+#projets >  h2 {
+    margin: 3rem auto 3rem auto;
+    font-family: 'Supernatural_Knight';
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: .5rem .5rem #E2AE87;
+}
