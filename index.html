@@ -31,26 +31,26 @@
 
 
 <body>
-    <header>
-        <nav class="navbar">
-                <a href="#presentation"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
+    <header aria-label="Header pour la navigation">
+        <nav class="navbar" aria-label="Barre de navigation">
+                <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
                 <!-- <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
-                <button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
-                <a href="#competences"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
-                <a href="#projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+                <button id="Btn" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
+                <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
+                <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
                <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> -->
-                <a href="#contact"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
-                <a href ="#documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+                <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
+                <a href ="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
         </nav>
     </header>
 
     <main>
-    <section id="page_presentation">
+    <section id="page_presentation" role="presentation" aria-label="Petite présentation">
        
-    <figure id="presentation">
+    <figure id="presentation" aria-label="ma presentation">
         <h2>Ounissa, développeuse Back-End</h2>
         <img id= "Mon-bitmoji" src="asset/hello.png" alt="this is my bitmoji saying hello"> <br>
-        <figcaption>
+        <figcaption >
            <p><br><b>  Bienvenue ! </b> <br> <br></p> 
             &nbsp; Je suis <b>Ounissa</b>, étudiante à l'École <b>ITIC Paris</b>, en alternance en tant qu'<b>IT Specialist</b> Chez<b> Dédalus HealthCare France.</b>
             Dans mes missions principales, je travaille dans l'équipe intégration des modules Care4U dans DxCare, avec les technologies .Net et du JavaScript.<br> <br> <br>
@@ -58,15 +58,15 @@
     </figure>
     </section>
 
-    <section id="competences">  
+    <section id="competences"  aria-label="Mes competences">  
         <h2 >Mes compétences:</h2>
         <br>
-        <ul class="liste_competences">
+        <ul class="liste_competences" aria-label="liste de mes compétences">
             <li>
               <figure>
                 <i class="fa-solid fa-code fa-xxl" style="color: #000000;" aria-hidden="true"></i> 
 
-                  <figcaption>
+                  <figcaption >
                      Programmation <b>Back-end</b> en: <b>C# </b>, <b> .NET </b>, <b> php et Laravel</b>et <b>Java</b>.
                   </figcaption> 
                </figure>
@@ -111,8 +111,9 @@
            </figcaption>
             </figure>
         </li>
-        
         </ul>
+        <br>
+            <br>
     </section>
     
    <!-- <section id="projets">
@@ -144,7 +145,7 @@
     </div>
   </div>
 </section >-->
-<section id="projets">
+<section id="projets" aria-label="Mes projets">
   <h2>Projets à présenter</h2>
 <div class="projets_ecole">
   <h2>A l'école :</h2>
@@ -178,7 +179,7 @@
 </div>
 </section>
 
-<section id="documents">
+<section id="documents" role="document" aria-label="Mes documents">
   <h1>Documents pour l'examen</h1> 
   <a href="./asset/Situation_pro_E5_JAVA.pdf" target="_blank">Fiche de situation professionelle E5 en PDF</a>
   <figure id="veille">
@@ -189,7 +190,7 @@
   </figure>
  </section>
 
-<section id="contact"> 
+<section id="contact"  aria-label="Pour me contacter"> 
   <div class="inner-form" role="form" aria-labelledby="contact-form"> 
     <fieldset> <!-- c'est tout ce qui entoure le formulaire-->
         <legend>
