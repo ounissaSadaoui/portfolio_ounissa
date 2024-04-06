@@ -1,5 +1,6 @@
 #projets{
-    height: 92vh;
+    height: 120vh;
+    /* max-height: 92vh; */
     flex-flow: column;
     padding: 2rem;
     margin: auto;

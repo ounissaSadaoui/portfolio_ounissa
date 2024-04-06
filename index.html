@@ -32,15 +32,15 @@
 
 <body>
     <header>
-        <nav class="navbar" role="navigation">
-                <a href="#presentation"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;"></i></a> <!--Home-->
-                <a href="#mode_nuit"><button id="Btn" aria-labelledby="button light/dark mode"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;"></i></button></a> <!--Night mode-->
-                <a href="#competences"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;"></i></a><!--Compétences-->
-                <a href="#projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;"></i></a><!--Home-->
-               <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;"></i> -->
-                <a href="#contact"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;"></i></a><!--Contact-->
-                <a href ="#documents"><i class="fa-solid fa-typewriter" style="color: #000000;"></i></a><!--Home-->
-            </ul>
+        <nav class="navbar">
+                <a href="#presentation"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
+                <!-- <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
+                <button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
+                <a href="#competences"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
+                <a href="#projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+               <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> -->
+                <a href="#contact"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
+                <a href ="#documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
         </nav>
     </header>
 
@@ -59,12 +59,12 @@
     </section>
 
     <section id="competences">  
-        <h2>Mes compétences:</h2>
+        <h2 >Mes compétences:</h2>
         <br>
         <ul class="liste_competences">
             <li>
               <figure>
-                <i class="fa-solid fa-code fa-xxl" style="color: #000000;"></i> 
+                <i class="fa-solid fa-code fa-xxl" style="color: #000000;" aria-hidden="true"></i> 
 
                   <figcaption>
                      Programmation <b>Back-end</b> en: <b>C# </b>, <b> .NET </b>, <b> php et Laravel</b>et <b>Java</b>.
@@ -73,7 +73,7 @@
             </li>
             <li>
               <figure>
-                <i class="fa-solid fa-laptop-code fa-xxl" style="color: #000000;"></i>
+                <i class="fa-solid fa-laptop-code fa-xxl" style="color: #000000;" aria-hidden="true"></i>
                 <figcaption>
                   Programmation <b>Front-end</b> en <b>HTML</b>, <b>css</b> et <b>JavaScript</b>.
                 </figcaption>
@@ -81,7 +81,7 @@
             </li>
             <li>
               <figure>
-                <i class="fa-solid fa-database"></i>
+                <i class="fa-solid fa-database" aria-hidden="true"></i>
                 <figcaption>
                   Connaissance et manipulation de <b>bases de données</b> <b>mysql</b> et <b>SQL</b>.
                 </figcaption>
@@ -89,7 +89,7 @@
             </li>
             <li>
                 <figure>
-                 <i class="fa-brands fa-sketch fa-xxl" style="color: #000000;"></i>
+                 <i class="fa-brands fa-sketch fa-xxl" style="color: #000000;" aria-hidden="true"></i>
                 <figcaption>
                  Création de maquettes et designs sur <b>Figma</b>.
                 </figcaption>
@@ -97,7 +97,7 @@
         </li>
         <li>
             <figure>
-                <i class="fa-solid fa-eye fa-xxl" style="color: #000000;"></i> 
+                <i class="fa-solid fa-eye fa-xxl" style="color: #000000;" aria-hidden="true"></i> 
                 <figcaption>
                 Respect des <b>normes du W3C</b> et de <b>l'accessiblité</b>.
             </figcaption>
@@ -105,7 +105,7 @@
         </li>
         <li>
             <figure>
-                <i class="fa-solid fa-person-biking fa-xxl" style="color: #000000;"></i> 
+                <i class="fa-solid fa-person-biking fa-xxl" style="color: #000000;" aria-hidden="true"></i> 
                 <figcaption>
                 Travail en équipe en agilité, avec <b>Scrum</b> et collaboration avec <b>Git</b>.
            </figcaption>
@@ -164,7 +164,7 @@
 <div class="projets_travail">
   <h2>Au travail :</h2>
 <figure>
-  <a href="stage.html" target="_blank"> <img src="./asset/care4u.png" alt="Réalisations stage 1ère année"></a> <!-- Ajouter capture d'écran-->
+  <a href="stage.html" target="_blank"> <img src="./asset/Image1.png" alt="Réalisations stage 1ère année"></a> <!-- Ajouter capture d'écran-->
   <figcaption>
       Réalisations Stage 1ère année
   </figcaption>
@@ -190,43 +190,43 @@
  </section>
 
 <section id="contact"> 
-  <div class="inner-form" role="form" aria-labelledby="inscription"> 
+  <div class="inner-form" role="form" aria-labelledby="contact-form"> 
     <fieldset> <!-- c'est tout ce qui entoure le formulaire-->
         <legend>
              <!-- c'est le nom donné au formulaire, -->
-           Me contacter
+          <h2>Me contacter</h2> 
         </legend>
 
         <label for="nom">
             Nom
         </label> <!-- dans form, action, on met l'endroit ou on pose la requête, ici notre site à nous-->
         
-        <form action="index.html" method="post">
+        <form action="index.html" method="post" id="contact-form">
         <input 
-            id="Votre nom"
+            id="nom"
             type="text"
-            name="Nom"
+            name="nom"
             placeholder="Nom" 
-            autofocus="true"
+            autofocus
             aria-required="true"
             required
             ><!-- placeholder c'est ce qui est écrit à l'interieur de la case quand elle est vide
             et aria-requiered veut dire que le champ est obligatoire, il faut le mettre avec required,
         mais il a dit trop de trucs vaut mieux rehercher ce point: flou  -->
-        <label for="user-lastname">
+        <label for="prenom">
             Prénom
         </label>
         <input type="text"
-        id="user-lastname"
-        name="Prenom"
+        id="prenom"
+        name="prenom"
         placeholder="Prénom"
         aria-required="true"
         required> <!-- on ne met pas autofocus ici, parce qu'on n'a qu'un seul curseur, on le met toujours sur le premier elt d'ailleurs-->
 
-        <label for="Email">E-mail</label>
+        <label for="email">E-mail</label>
         <input type="Email"
         id="email"
-        name="mail"
+        name="email"
         placeholder="E-mail"
         aria-required="true"
         required>
@@ -235,13 +235,13 @@
         <input type="tel"
         id="tel"
         placeholder="Téléphone"
-        name="phone">
+        name="tel">
         
         <label for="message">Message</label>
         <input type="text"
                id="message"
                placeholder="Veuillez saisir votre message"
-               name="Message"
+               name="message"
                aria-required="true"
                required>
         <input type="submit"

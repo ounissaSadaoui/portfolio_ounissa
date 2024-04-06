@@ -21,13 +21,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #999987; /*battleship gray, passe encore */
+    background-color: #999987; /*battleship gray, passe encore pour contraste */
     border-top-right-radius: 8rem 8rem;
     border-top-left-radius: 8rem 8rem;
   }
   
   .liste_competences li {
-    width: calc(33% - .7rem); /* 4 compétences en largeur avec un espace entre elles */
+    width: calc(33% - .7rem); /* 3 compétences en largeur avec un espace entre elles */
   }
   figure {
     text-align: center;
