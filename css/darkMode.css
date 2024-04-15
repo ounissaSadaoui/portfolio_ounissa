@@ -1,0 +1,28 @@
+.darkmode {
+  background-color: rgb(53, 49, 49);
+  color: white;
+}
+.nav_darkmode {
+  color: white;
+  background-color:rgb(53, 49, 49);
+}
+/*
+.darkmode ~ body {
+  background :url(../asset/todd-trapani-hCdMjrL5C0Y-unsplash.jpg) center center/ cover fixed;
+}
+body.dark-mode {
+  background-image: url('image2.png'); /
+}
+
+body.dark-mode button#darkmode {
+  color: white; 
+}
+*/
+#darkmode:checked ~ body {
+  /* Styles pour le mode sombre */
+  background-image: url('image2.png'); /* Change l'image de fond */
+}
+
+#darkmode:checked ~ body  {
+  color: white; /* Change la couleur du texte du bouton en blanc */
+}
