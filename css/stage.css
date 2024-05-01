@@ -1,0 +1,27 @@
+.presentation, .stage {
+    height: 90vh;
+    margin-top: 10vh;
+}
+
+/*body{
+    background: url(../asset/owen-beard-DK8jXx1B-1c-unsplash.jpg) center center/ cover fixed
+}*/
+h1 {
+    text-align: center;
+    font-weight: 400;
+    }
+.presentation figure{
+    background-color: #999987;
+    max-width: 70%;
+    margin-top: 2rem;
+}
+
+.stage figure {
+    background-color: #E2AE87;
+    max-width: 70%;
+    margin-top: 2rem;
+}
+.presentation img{
+    height: 30%;
+    width: 75%;
+}
