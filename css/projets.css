@@ -1,6 +1,5 @@
 #projets{
     height: 92vh;
-    /* max-height: 92vh; */
     flex-flow: column;
     padding: 2rem;
     margin: auto;
@@ -17,15 +16,46 @@
     float: right;
     width: calc(50% - 6rem);
     background-color: #999987 ;
-    margin-right: 5rem;
-    margin-left: 1rem;
+    margin: auto 5rem auto 1rem;
     border-radius: 1rem;
-
-
 }
-#projets >  h2 {
+#projets >  h1 {
     margin: 3rem auto 3rem auto;
-    font-size: xx-large;
+    font-size: 200%;
+    font-weight: 800;
     text-align: center;
     text-shadow: .5rem .5rem #E2AE87;
+}
+.projets_ecole > h2 {
+    border-style: double;
+    border-width: .7rem;
+    border-color: #999987;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+.projets_travail > h2{
+    border-width: .7rem;
+    border-style: double;
+    border-color: #E2AE87;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+
+#img_t > img{
+    width: auto;
+    height: 18rem;
+}
+#img_e > img{
+    width: auto;
+    height: 18rem;
+}
+#projets > div > figure > figcaption {
+    font-size: large;
+    max-width: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    margin: 1rem auto 1rem auto;
+    text-decoration: underline;
 }
