@@ -1,18 +1,12 @@
-@font-face {
-  font-family: 'Supernatural_Knight';
-  src: url(./font/Supernatural_Knight.ttf);
-}
-
 #page_presentation{
   height: 92vh;
   margin-top: 20vh;
 }
   
 #Mon-bitmoji {
-
-    margin-top: 2rem;
-    height: 15rem;
-    width: 15rem;
+    margin-top: 4rem;
+    height: 17rem;
+    width: 17rem;
   }
 
 #presentation {
@@ -32,13 +26,14 @@
   padding: 1rem;
 }
 
-#page_presentation > #presentation > figcaption > p {
+#page_presentation > #presentation > figcaption > #titre {
+  font-family: "Bad Script", sans-serif;
   font-size: x-large;
   text-shadow: .5rem .5rem #999987;
 }
-#page_presentation > #presentation > h2{
-  font-family: 'Supernatural_Knight';
-  font-size: xx-large;
+#page_presentation > #presentation > h1{
+  font-size: 250%;
+  font-weight: 800;
   text-align: center;
   text-shadow: .5rem .5rem #E2AE87;
 } 
