@@ -4,11 +4,12 @@
 }
 
 #page_presentation{
-  max-height: 92vh;
-  margin-top: 9vh;
+  height: 92vh;
+  margin-top: 20vh;
 }
   
 #Mon-bitmoji {
+
     margin-top: 2rem;
     height: 15rem;
     width: 15rem;

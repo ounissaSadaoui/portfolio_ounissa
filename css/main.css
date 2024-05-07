@@ -1,4 +1,4 @@
-.navbar {
+  header ul, button {
     position: fixed;
     top: 0;
     display: flex;
@@ -10,18 +10,22 @@
     z-index: 1000;
     padding: 1rem;
     align-items: flex-start;
-  }
+  } 
 
-/* .navbar a {
-    font-size: 2rem;
-}*/
 body{
   background :url(../asset/todd-trapani-hCdMjrL5C0Y-unsplash.jpg) center center/ cover fixed;
 }
-.navbar a{
-    font-size: 1.6rem;
-    margin: 1rem;
-    cursor: pointer ;
-    line-height: 1.6rem;
-    flex:auto ;
-  }
+
+/* li:first-child {
+  margin-left: 0; 
+} */
+
+ul{
+  right :0;
+}
+
+.custom-icon {
+  font-size: 2.6rem; /* taille de police pour les icônes */
+  color: #000000;
+  padding-top: 1.6rem ;
+}

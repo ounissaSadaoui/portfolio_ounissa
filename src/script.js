@@ -5,7 +5,7 @@ const darkModeButton = document.getElementById('darkmode');
 darkModeButton.addEventListener('click', function() {
     // ici on  Vérifie si le mode sombre est déjà activé 
     const body = document.body;
-    const navbar = document.querySelector('.navbar');
+    const navbar = document.querySelector('ul');
     const isDarkMode = body.classList.contains('dark-mode');
 
     const bitmoji = document.getElementById('Mon-bitmoji');

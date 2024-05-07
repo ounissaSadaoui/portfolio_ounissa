@@ -31,28 +31,43 @@
 
 <body>
     <header aria-label="Header pour la navigation">
-        <nav class="navbar" aria-label="Barre de navigation">
-                <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
-                <!-- <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
-                <button id="darkmode" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
-                <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
-                <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+      <ul>
+        <li>
+          <button id="darkmode" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
+        </li>
+        <li>
+          <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
+        </li>
+        <li>
+          <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
+        </li>
+        <li>
+          <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+        </li>
+        <li>
+          <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
+        </li>
+        <li>
+          <a href="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+        </li>
+       
+      </ul>
+        <!-- <nav class="navbar" aria-label="Barre de navigation">
+                 <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
                <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> -->
-                <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
-                <a href ="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
-        </nav>
+        <!-- </nav> --> 
     </header>
 
     <main>
     <section id="page_presentation" role="presentation" aria-label="Petite présentation">
        
     <figure id="presentation" aria-label="ma presentation">
-        <h2>Ounissa, développeuse Back-End</h2>
+        <h2>Ounissa, développeuse Front et Back-End</h2>
         <img id= "Mon-bitmoji" src="asset/hello.png" alt="this is my bitmoji saying hello"> <br>
         <figcaption id = "fig_presentation">
            <p><br><b>  Bienvenue ! </b> <br> <br></p> 
-            &nbsp; Je suis <b>Ounissa</b>, étudiante à l'École <b>ITIC Paris</b>, en alternance en tant qu'<b>IT Specialist</b> Chez<b> Dédalus HealthCare France.</b>
-            Dans mes missions principales, je travaille dans l'équipe intégration des modules Care4U dans DxCare, avec les technologies .Net et du JavaScript.<br> <br> <br>
+            &nbsp; Je suis <b>Ounissa SADAOUI</b>, étudiante à l'École <b>ITIC Paris</b>, en alternance en tant qu'<b>IT Specialist</b> Chez<b> Dédalus HealthCare France</b>, entreprise spécialisée dans l'édition de logiciels de santé.
+            Dans mes missions principales, je travaille dans l'équipe en charge de l'intégration des modules Care4U dans DxCare, avec les technologies <b>.Net </b>et <b>JavaScript</b>. <br> <br>
     </figcaption>
     </figure>
     </section>
@@ -66,7 +81,7 @@
                 <i class="fa-solid fa-code fa-xxl" style="color: #000000;" aria-hidden="true"></i> 
 
                   <figcaption >
-                     Programmation <b>Back-end</b> en: <b>C# </b>, <b> .NET </b>, <b> php et Laravel</b>et <b>Java</b>.
+                     Programmation <b>Back-end</b> en: <b>C# </b>, <b> .NET </b>, <b> php, Laravel</b> et <b>Java</b>.
                   </figcaption> 
                </figure>
             </li>
@@ -74,7 +89,7 @@
               <figure>
                 <i class="fa-solid fa-laptop-code fa-xxl" style="color: #000000;" aria-hidden="true"></i>
                 <figcaption>
-                  Programmation <b>Front-end</b> en <b>HTML</b>, <b>css</b> et <b>JavaScript</b>.
+                  Programmation <b>Front-end</b> en <b>HTML</b>, <b>CSS</b> et <b>JavaScript</b>.
                 </figcaption>
               </figure>
             </li>
@@ -82,7 +97,7 @@
               <figure>
                 <i class="fa-solid fa-database" aria-hidden="true"></i>
                 <figcaption>
-                  Connaissance et manipulation de <b>bases de données</b> <b>mysql</b> et <b>SQL</b>.
+                  Connaissance et manipulation de <b>bases de données mysql</b> et <b>SQL</b>.
                 </figcaption>
               </figure>
             </li>
@@ -145,17 +160,17 @@
   </div>
 </section >-->
 <section id="projets" aria-label="Mes projets">
-  <h2>Projets à présenter</h2>
+  <h2>Mes réalisations </h2>
 <div class="projets_ecole">
   <h2>A l'école :</h2>
   <figure>
-    <a href="projet_back.html" target="_blank"> <img src="./asset/dean.jpg" alt="Projet de gestion des ligues"></a> <!-- Ajouter capture d'écran-->
+    <a href="projet_back.html" target="_blank"> <img src="./asset/connexion.png" alt="Projet de gestion des ligues"></a> <!-- Ajouter capture d'écran-->
     <figcaption>
         Projet Gestion de ligues
     </figcaption>
 </figure>
 <figure>
-    <a href="projet_front.html" target="_blank"> <img src="./asset/dean.jpg" alt="Projet de front"></a> <!-- Ajouter capture d'écran-->
+    <a href="projet_front.html" target="_blank"> <img src="./asset/m2l.png" alt="Projet de front"></a> <!-- Ajouter capture d'écran-->
     <figcaption>
         Projet De front, reste encore à faire
     </figcaption>
@@ -190,72 +205,12 @@
  </section>
 
 <section id="contact"  aria-label="Pour me contacter"> 
-  <div class="inner-form" role="form" aria-labelledby="contact-form"> 
-    <fieldset> <!-- c'est tout ce qui entoure le formulaire-->
-        <legend>
-             <!-- c'est le nom donné au formulaire, -->
-          <h2>Me contacter</h2> 
-        </legend>
-
-        <label for="nom">
-            Nom
-        </label> <!-- dans form, action, on met l'endroit ou on pose la requête, ici notre site à nous-->
-        
-        <form action="index.html" method="post" id="contact-form">
-        <input 
-            id="nom"
-            type="text"
-            name="nom"
-            placeholder="Nom" 
-            autofocus
-            aria-required="true"
-            required
-            ><!-- placeholder c'est ce qui est écrit à l'interieur de la case quand elle est vide
-            et aria-requiered veut dire que le champ est obligatoire, il faut le mettre avec required,
-        mais il a dit trop de trucs vaut mieux rehercher ce point: flou  -->
-        <label for="prenom">
-            Prénom
-        </label>
-        <input type="text"
-        id="prenom"
-        name="prenom"
-        placeholder="Prénom"
-        aria-required="true"
-        required> <!-- on ne met pas autofocus ici, parce qu'on n'a qu'un seul curseur, on le met toujours sur le premier elt d'ailleurs-->
-
-        <label for="email">E-mail</label>
-        <input type="Email"
-        id="email"
-        name="email"
-        placeholder="E-mail"
-        aria-required="true"
-        required
-        autocomplete="yourEmail@mail.com" >
-        <!-- les numéros sont gérés par des patters pour controler les formats par exemple-->
-        <label for="tel">Téléphone</label>
-        <input type="tel"
-        id="tel"
-        placeholder="Téléphone"
-        name="tel"
-        autocomplete="0123456789">
-        
-        <label for="message">Message</label>
-        <input type="text"
-               id="message"
-               placeholder="Veuillez saisir votre message"
-               name="message"
-               aria-required="true"
-               required>
-        <input type="submit"
-        value="Envoyer">
-    </form>
-    </fieldset>
-</div>
+  
 </section>
 
 
    
-<script src="./js/script.js"></script>
+<!-- <script src="./js/script.js"></script> -->
 </main>
 <footer>
   <p>Ounissa 2023</p>
