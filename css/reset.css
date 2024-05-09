@@ -5,6 +5,8 @@
 @import url("main.css");
 @import url("darkMode.css");
 @import url("stage.css");
+@import url("veille.css");
+@import url("footer.css");
 
 .bad-script-regular {
     font-family: "Bad Script", cursive;

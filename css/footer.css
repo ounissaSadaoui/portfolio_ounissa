@@ -1,0 +1,13 @@
+footer {
+    margin-bottom: 0;
+    background-color: #999987;
+    text-align: center;
+    width: 100%;
+    overflow: visible;
+}
+footer > div > a > i {
+    margin: 2rem 2rem 3rem 2rem;
+    }
+.custom-icon {
+    size: 7rem;
+}

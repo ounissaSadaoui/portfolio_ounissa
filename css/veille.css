@@ -1,0 +1,40 @@
+#veille_techno {
+    height: 92vh;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    max-width: 80%;
+}
+
+#veille_techno > figure {
+    background-color: #999987;
+    border-radius: 1rem;
+    width: 80%;
+
+}
+#veille_techno > h1 {
+    font-size: 200%;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: .5rem .5rem #E2AE87;
+    margin-bottom: 3rem;
+}
+#veille > h2 {
+    border-width: .7rem;
+    border-style: double;
+    border-color: #E2AE87;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin: 1rem;
+}
+#veille > a > img {
+    border-radius: 0.4rem;
+    width: 90%;
+    margin: 1rem;
+}
+#veille > figcaption {
+    text-align: left;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
