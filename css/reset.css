@@ -7,6 +7,8 @@
 @import url("stage.css");
 @import url("veille.css");
 @import url("footer.css");
+@import url("side_projects.css");
+
 
 .bad-script-regular {
     font-family: "Bad Script", cursive;
@@ -22,7 +24,7 @@
   }
   
 html{
-    font-size: 70%;
+    font-size: 80%;
     scroll-behavior: smooth;
 }
 

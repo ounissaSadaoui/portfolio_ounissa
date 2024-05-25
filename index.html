@@ -50,9 +50,9 @@
         <li>
           <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
         </li>
-        <li>
+        <!-- <li>
           <a href="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
-        </li>
+        <!-- </li> --> 
        
       </ul>
         <!-- <nav class="navbar" aria-label="Barre de navigation">
@@ -168,13 +168,13 @@
 <div class="projets_ecole">
   <h2>A l'école :</h2>
   <figure>
-    <a id="img_e" href="projet_back.html" target="_blank" > <img src="./asset/connexion.png" alt="Projet de gestion des ligues"></a> <!-- Ajouter capture d'écran-->
+    <a class="img_e" href="projet_back.html" target="_blank" aria-label="accès au projet gestion du personnel des ligues" > <img src="./asset/connexion.png" alt="Projet de gestion des ligues"></a> <!-- Ajouter capture d'écran-->
     <figcaption>
         Projet Back, Gestion du personnel des ligues 
     </figcaption>
 </figure>
 <figure>
-    <a id="img_e" href="projet_front.html" target="_blank"> <img src="./asset/m2l.png" alt="Projet de front"></a> <!-- Ajouter capture d'écran-->
+    <a class="img_e" href="projet_front.html" target="_blank" aria-label="accès à la page du projet font, maison des ligues"> <img src="./asset/m2l.png" alt="Projet de front"></a> <!-- Ajouter capture d'écran-->
     <figcaption>
         Projet Front, Maison des Ligues
     </figcaption>
@@ -183,13 +183,13 @@
 <div class="projets_travail">
   <h2>Au travail :</h2>
 <figure>
-  <a id="img_t" href="stage.html" target="_blank"> <img src="./asset/care4u.png" alt="Réalisations stage 1ère année"></a> 
+  <a class="img_t" href="stage.html" target="_blank" aria-label="page réalisations en stage de 1ère année"> <img src="./asset/care4u.png" alt="Réalisations stage 1ère année"></a> 
   <figcaption>
      Missions en stage de 1ère année
   </figcaption>
 </figure>
 <figure>
-  <a id="img_t" href="alternance.html" target="_blank"> <img src="./asset/Logo-p2.png" alt="Alternance 2ème année"></a> 
+  <a class="img_t" href="alternance.html" target="_blank" aria-label="page réalisations en alternance"> <img src="./asset/Logo-p2.png" alt="Alternance 2ème année"></a> 
   <figcaption>
       Missions en alternance en 2ème année
   </figcaption>
@@ -202,21 +202,57 @@
   <a href="./asset/Situation_pro_E5_JAVA.pdf" target="_blank">Fiche de situation professionelle E5 en PDF</a>
   </section> -->
 
-  <section id="veille_techno" role="region" aria-labelledby="veille">
+  <section id="veille_techno" aria-labelledby="veille">
     <h1>Ma veille technologique :</h1>
   <figure id="veille">
     <h2>Interopérabilité des systèmes de santé :</h2>
 
-    <a href="veille.html" target="_blank"> <img src="./asset/EMR-Interoperability-1280x720-1.jpg" alt="Alternance 2ème année"></a> 
+    <a href="veille.html" target="_blank" aria-label="page veille technologique"> <img src="./asset/EMR-Interoperability-1280x720-1.jpg" alt="Alternance 2ème année"></a> 
     <figcaption>
       
       &nbsp; &nbsp; &nbsp;<b>L’interopérabilité</b> est la capacité des <b>systèmes d’information</b> à se <b>connecter</b> et à <b>communiquer</b> entre eux,  
       même si leurs fabricants sont différents. Cette capacité <b>d’échanger des informations</b> provenant de <b>sources différentes </b>
       entre les logiciels, les bases de données et les autres systèmes d’information est très importante pour le <b>déploiement de l’e-santé</b>
-      <a href="veille.html" target="_blank"> ...</a> 
+      <a href="veille.html" target="_blank" aria-label="page veille technologique"> ...</a> 
     </figcaption>
   </figure>
  </section>  
+
+
+ <section id="side_projects" aria-labelledby="side_projects">
+  <h1>
+    Mes autres projets : 
+  </h1>
+  <div class="projets_haut">
+    <figure>
+      <a id="img_eb" href="projet_back.html" target="_blank" aria-label="projet1" > <img src="./asset/asteroids.png" alt="Projet de gestion des ligues"></a> <!-- Ajouter capture d'écran-->
+      <figcaption>
+          Projet Back, Gestion du personnel des ligues 
+      </figcaption>
+  </figure>
+  <figure>
+      <a id="img_et" href="projet_front.html" target="_blank" aria-label="projet1"> <img src="./asset//dean.jpg" alt="Projet de front"></a> <!-- Ajouter capture d'écran-->
+      <figcaption>
+          Projet Front, Maison des Ligues
+      </figcaption>
+  </figure>
+  </div>
+  <div class="projects_bas">
+  <figure>
+    <a id="img_" href="stage.html" target="_blank" aria-label="projet1"> <img src="./asset/clavier.png" alt="Réalisations stage 1ère année"></a> 
+    <figcaption>
+       Missions en stage de 1ère année
+    </figcaption>
+  </figure>
+  <figure>
+    <a id="im" href="alternance.html" target="_blank" aria-label="projet1"> <img src="./asset/horloge.png" alt="Alternance 2ème année"></a> 
+    <figcaption>
+        Missions en alternance en 2ème année
+    </figcaption>
+  </figure>
+  </div>
+
+ </section>
 
    
 <!-- <script src="./js/script.js"></script> -->
@@ -224,11 +260,11 @@
 <footer>
   <div class="contact">
     <p>Pour me contacter : </p>
-    <a href="www.linkedin.com/in/ounissa-sadaoui-227529263" target="_blank"><i class="fa-brands fa-linkedin fa-2xl custom-icon" aria-hidden="true"></i></a>
-    <a href="https://github.com/ounissaSadaoui" target="_blank"> <i class="fa-brands fa-github fa-2xl custom-icon" aria-hidden="true"></i></a>
-    <a href="mailto:ounissasadaoui@gmail.com"><i class="fa-solid fa-envelope fa-2xl custom-icon "aria-hidden="true"></i></a>
+    <a href="www.linkedin.com/in/ounissa-sadaoui-227529263" target="_blank" aria-label="accès à ma page linkedin"><i class="fa-brands fa-linkedin fa-2xl custom-icon" aria-hidden="true"></i></a>
+    <a href="https://github.com/ounissaSadaoui" target="_blank" aria-label="accès à ma page github"> <i class="fa-brands fa-github fa-2xl custom-icon" aria-hidden="true"></i></a>
+    <a href="mailto:ounissasadaoui@gmail.com" aria-label="m'envoyer un mail"><i class="fa-solid fa-envelope fa-2xl custom-icon" aria-hidden="true"></i></a>
   </div>
-  <p>@Ounissa 2024 </p>
+  <p>@Ounissa 2023-2024 </p>
 </footer>
 </body>
 </html>
