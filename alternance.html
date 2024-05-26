@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="fr" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio Ounissa, Parti alternance">
+    <meta name="description" content="Portfolio Ounissa, développeuse .NET et JavaScript">
     <!-- liens open graph-->
     <meta property="og:title" content="Mon Portfolio">
     <meta property="og:type" content="Website">
@@ -20,26 +21,44 @@
     <meta property="twitter:image" content="hhttps://ounissasadaoui.github.io/Portfolio/asset/Sans%20titre.jpeg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <link rel="manifest" href="./favicon/site.webmanifest">    
     <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./favicon/favicon-32x32.png" type="image/x-icon">
-    <link rel="shortcut icon" href="./favicon/favicon-16x16.png" type="image/x-icon"> 
-    <title>Alternance: réalisations professionelles</title>
+    <link rel="shortcut icon" href="./favicon/favicon-16x16.png" type="image/x-icon">  
+    <title>Mon Portfolio, page Alternance en 2ème année</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar" aria-label="Barre de navigation">
-            <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
-            <!-- <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
-            <button id="darkmode" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
-            <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
-            <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
-           <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> -->
-            <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
-            <a href ="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
-    </nav>
-        <h1>Alternance 2ème année: réalisations professionelles</h1>
+    <header aria-label="Header pour la navigation">
+      <ul>
+        <li>
+          <button id="darkmode" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
+        </li>
+        <li>
+          <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
+        </li>
+        <li>
+          <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
+        </li>
+        <li>
+          <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+        </li>
+        <li>
+          <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
+        </li>
+        <!-- <li>
+          <a href="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+        <!-- </li> --> 
+       
+      </ul>
+        <!-- <nav class="navbar" aria-label="Barre de navigation">
+                 <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
+               <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> -->
+        <!-- </nav> --> 
     </header>
+
     <main>
         <div class="presentation">
             <h1>Dédalus, l'entreprise :</h1>
@@ -130,5 +149,14 @@
        parler du retour fhir et de toute l'histoire du json
 
     </main>
+    <footer>
+        <div class="contact">
+          <p>Pour me contacter : </p>
+          <a href="www.linkedin.com/in/ounissa-sadaoui-227529263" target="_blank" aria-label="accès à ma page linkedin"><i class="fa-brands fa-linkedin fa-2xl custom-icon" aria-hidden="true"></i></a>
+          <a href="https://github.com/ounissaSadaoui" target="_blank" aria-label="accès à ma page github"> <i class="fa-brands fa-github fa-2xl custom-icon" aria-hidden="true"></i></a>
+          <a href="mailto:ounissasadaoui@gmail.com" aria-label="m'envoyer un mail"><i class="fa-solid fa-envelope fa-2xl custom-icon" aria-hidden="true"></i></a>
+        </div>
+        <p>@Ounissa 2023-2024 </p>
+      </footer>
 </body>
 </html>

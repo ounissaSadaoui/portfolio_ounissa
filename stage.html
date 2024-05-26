@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="fr" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio Ounissa, partie stage">
+    <meta name="description" content="Portfolio Ounissa, développeuse .NET et JavaScript">
     <!-- liens open graph-->
     <meta property="og:title" content="Mon Portfolio">
     <meta property="og:type" content="Website">
@@ -20,25 +21,44 @@
     <meta property="twitter:image" content="hhttps://ounissasadaoui.github.io/Portfolio/asset/Sans%20titre.jpeg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <link rel="manifest" href="./favicon/site.webmanifest">    
     <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./favicon/favicon-32x32.png" type="image/x-icon">
-    <link rel="shortcut icon" href="./favicon/favicon-16x16.png" type="image/x-icon"> 
-    <title>Réalisations en Stage de 1ère année</title>
+    <link rel="shortcut icon" href="./favicon/favicon-16x16.png" type="image/x-icon">  
+    <title>Mon Portfolio, page stage de 1ère année</title>
 </head>
 <body>
-     <header aria-label="Header pour la navigation">
-        <nav class="navbar" aria-label="Barre de navigation">
-                <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
-                <!-- <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
-                <button id="darkmode" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
-                <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
-                <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+    <header aria-label="Header pour la navigation">
+      <ul>
+        <li>
+          <button id="darkmode" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
+        </li>
+        <li>
+          <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
+        </li>
+        <li>
+          <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
+        </li>
+        <li>
+          <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+        </li>
+        <li>
+          <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
+        </li>
+        <!-- <li>
+          <a href="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+        <!-- </li> --> 
+       
+      </ul>
+        <!-- <nav class="navbar" aria-label="Barre de navigation">
+                 <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
                <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> -->
-                <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
-                <a href ="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
-        </nav>
+        <!-- </nav> --> 
     </header>
+
     <main>
     <div class="presentation">
         <h1>Dédalus, l'entreprise :</h1>
@@ -73,7 +93,8 @@
                 Care4U est le tout nouveau DPI de Dedalus, développé en <b>full web. Totalement responsive (disponible sur Bureau, tablette et smartphone), plus souple et personnalisable </b>par les utilisateurs, c'est un DPI Complet avec des modules de gestion des RDV, 
                 de diagnostic, une gestion de la pharmacie et des urgences, mais aussi de l'EHPAD.
 
-                J'étais <b>IT Specialist</b> au sein de la <b>Care4u Setup Team</b>, chargée de créer des exemples de <b>formulaires</b> et <b>dashboards</b> pour un hôpital pilote Care4U en France.
+                J'étais <b>IT Specialist</b> au sein de la <b>Care4u Setup Team</b>. 
+                <img src="./asset/orga_stage.png" alt="organigramme entreprise">chargée de créer des exemples de <b>formulaires</b> et <b>dashboards</b> pour un hôpital pilote Care4U en France.
                 Pendant un mois, avec le reste de l'équipe : Product Owner, Product Manager, UXDesigner et un autre développeur, nous avons réalisé, pour les services Urgences et Psychiatrie, des formulaires U (formulaires crées à partir de composer U, intégré à Care4U), ainsi que des Dashboards Patients.
            <br>
                 Cette création passait par les étapes suivantes:
@@ -93,6 +114,14 @@
         </figure>
     </div>
     </main>
-    
+    <footer>
+        <div class="contact">
+          <p>Pour me contacter : </p>
+          <a href="https://linkedin.com/in/ounissa-sadaoui-227529263" target="_blank" aria-label="accès à ma page linkedin"><i class="fa-brands fa-linkedin fa-2xl custom-icon" aria-hidden="true"></i></a>
+          <a href="https://github.com/ounissaSadaoui" target="_blank" aria-label="accès à ma page github"> <i class="fa-brands fa-github fa-2xl custom-icon" aria-hidden="true"></i></a>
+          <a href="mailto:ounissasadaoui@gmail.com" aria-label="m'envoyer un mail"><i class="fa-solid fa-envelope fa-2xl custom-icon" aria-hidden="true"></i></a>
+        </div>
+        <p>@Ounissa 2023-2024 </p>
+      </footer>
 </body>
 </html>
