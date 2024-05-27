@@ -1,15 +1,16 @@
-/*
-.darkmode ~ body {
-  background :url(../asset/todd-trapani-hCdMjrL5C0Y-unsplash.jpg) center center/ cover fixed;
+.darkmode {
+  background-color: #121212;
+  color: white;
 }
-body.dark-mode {
-  background-image: url('image2.png'); /
+.darkmode header {
+  background-color: #1f1f1f;
 }
-
-body.dark-mode button#darkmode {
-  color: white; 
+.darkmode section {
+  background-color: #333;
 }
-*/
+.darkmode .custom-icon {
+  color: white;
+}
 body.dark-mode {
   background-image: url(../asset/zongnan-bao-fCNVHLyeMEs-unsplash.jpg); 
 }

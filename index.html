@@ -33,32 +33,28 @@
 
 
 <body>
-    <header aria-label="Header pour la navigation">
-      <ul>
+    <header>
+      <ul id="nav">
         <li>
           <button id="darkmode" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
         </li>
         <li>
-          <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> <!--Home-->
+          <a href="#presentation" aria-label="Accueil"> <i class="fas fa-home fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a> 
         </li>
         <li>
-          <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Compétences-->
+          <a href="#competences" aria-label="competence"><i class="fa-solid fa-book fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+          <a href="#projets" aria-label="mes_projets"><i class="fa-solid fa-signs-post fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a>
         </li>
         <li>
-          <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
+          <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a>
         </li>
-        <!-- <li>
-          <a href="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
-        <!-- </li> --> 
+        <li>
+          <a href="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a>
+        </li>
        
       </ul>
-        <!-- <nav class="navbar" aria-label="Barre de navigation">
-                 <a href="#mode_nuit"><button id="Btn"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button></a> Night mode -->
-               <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> -->
-        <!-- </nav> --> 
     </header>
 
     <main>
@@ -79,10 +75,10 @@
 
     <section id="competences"  aria-label="Mes competences">  
         <h1>Mes compétences :</h1>
-        <ul class="liste_competences" aria-label="liste de mes compétences">
+        <ul class="liste_competences"  id="liste_competences" aria-label="liste de mes compétences">
             <li>
               <figure>
-                <i class="fa-solid fa-code fa-xxl" style="color: #000000;" aria-hidden="true"></i> 
+                <i class="fa-solid fa-code fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> 
 
                   <figcaption >
                      Programmation <b>Back-end</b> en: <b>C# </b>, <b> .NET </b>, <b> php, Laravel</b> et <b>Java</b>.
@@ -91,7 +87,7 @@
             </li>
             <li>
               <figure>
-                <i class="fa-solid fa-laptop-code fa-xxl" style="color: #000000;" aria-hidden="true"></i>
+                <i class="fa-solid fa-laptop-code fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i>
                 <figcaption>
                   Programmation <b>Front-end</b> en <b>HTML</b>, <b>CSS</b> et <b>JavaScript</b>.
                 </figcaption>
@@ -99,7 +95,7 @@
             </li>
             <li>
               <figure>
-                <i class="fa-solid fa-database" aria-hidden="true"></i>
+                <i class="fa-solid fa-database fa-2xl custom-icon" aria-hidden="true"></i>
                 <figcaption>
                   Connaissance et manipulation de <b>bases de données mysql</b> et <b>SQL</b>.
                 </figcaption>
@@ -107,7 +103,7 @@
             </li>
             <li>
                 <figure>
-                 <i class="fa-brands fa-sketch fa-xxl" style="color: #000000;" aria-hidden="true"></i>
+                 <i class="fa-brands fa-sketch fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i>
                 <figcaption>
                  Création de maquettes et designs sur <b>Figma</b>.
                 </figcaption>
@@ -115,7 +111,7 @@
         </li>
         <li>
             <figure>
-                <i class="fa-solid fa-eye fa-xxl" style="color: #000000;" aria-hidden="true"></i> 
+                <i class="fa-solid fa-eye fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> 
                 <figcaption>
                 Respect des <b>normes du W3C</b> et de <b>l'accessiblité</b>.
             </figcaption>
@@ -123,7 +119,7 @@
         </li>
         <li>
             <figure>
-                <i class="fa-solid fa-person-biking fa-xxl" style="color: #000000;" aria-hidden="true"></i> 
+                <i class="fa-solid fa-person-biking fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> 
                 <figcaption>
                 Travail en équipe en agilité, avec <b>Scrum</b> et collaboration avec <b>Git</b>.
            </figcaption>
@@ -136,7 +132,7 @@
   
     <section id="projets" aria-label="Mes projets">
   <h1>Mes réalisations :</h1>
-<div class="projets_ecole">
+<div class="projets_ecole" id="projets_ecole">
   <h2>A l'école :</h2>
   <figure>
     <a class="img_e" href="projet_back.html" target="_blank" aria-label="accès au projet gestion du personnel des ligues" > <img src="./asset/connexion.png" alt="Projet de gestion des ligues"></a> <!-- Ajouter capture d'écran-->
@@ -151,7 +147,7 @@
     </figcaption>
 </figure>
 </div>
-<div class="projets_travail">
+<div class="projets_travail" id="projets_travail">
   <h2>Au travail :</h2>
 <figure>
   <a class="img_t" href="stage.html" target="_blank" aria-label="page réalisations en stage de 1ère année"> <img src="./asset/care4u.png" alt="Réalisations stage 1ère année"></a> 
@@ -194,7 +190,7 @@
   <h1>
     Mes autres réalisations : 
   </h1>
-  <div class="projets_haut">
+  <div class="projets_haut" id="projets_haut">
       <figure>
       <a id="img_et" href="https://github.com/ounissaSadaoui/clavier_musical" target="_blank" aria-label="projet1"> <img src="./asset/clavier.png" alt="Projet clavier musical"></a> <!-- Ajouter capture d'écran-->
       <figcaption>
@@ -208,7 +204,7 @@
     </figcaption>
 </figure>
   </div>
-  <div class="projects_bas">
+  <div class="projects_bas" id="projects_bas">
   <figure>
     <a id="img_" href="https://github.com/ounissaSadaoui/Refont_design" target="_blank" aria-label="projet1"> <img src="./asset/refont.png" alt="projet refonte d'un site web"></a> 
     <figcaption>
@@ -226,10 +222,10 @@
  </section>
 
    
-<!-- <script src="./js/script.js"></script> -->
+<script src="./js/script.js"></script>
 </main>
-<footer>
-  <div class="contact">
+<footer id="contact">
+  <div class="contact" >
     <p>Pour me contacter : </p>
     <a href="https://linkedin.com/in/ounissa-sadaoui-227529263" target="_blank" aria-label="accès à ma page linkedin"><i class="fa-brands fa-linkedin fa-2xl custom-icon" aria-hidden="true"></i></a>
     <a href="https://github.com/ounissaSadaoui" target="_blank" aria-label="accès à ma page github"> <i class="fa-brands fa-github fa-2xl custom-icon" aria-hidden="true"></i></a>

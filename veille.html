@@ -32,7 +32,7 @@
 </head>
 <body>
     <header aria-label="Header pour la navigation">
-      <ul>
+      <ul id="nav">
         <li>
           <button id="darkmode" aria-label="mode nuit"><i class="fa-solid fa-moon fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></button> 
         </li>
@@ -49,7 +49,7 @@
           <a href="#contact" aria-label="me contacter"><i class="fa-solid fa-mobile-retro fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i></a><!--Contact-->
         </li>
         <!-- <li>
-          <a href="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a><!--Home-->
+          <a href="#documents" aria-label="mes documents"><i class="fa-solid fa-typewriter" style="color: #000000;" aria-hidden="true"></i></a>
         <!-- </li> --> 
        
       </ul>
@@ -58,33 +58,95 @@
                <!-- <i class="fa-solid fa-screwdriver-wrench fa-2xl custom-icon" style="color: #000000;" aria-hidden="true"></i> -->
         <!-- </nav> --> 
     </header>
+    <main>
+      <h1 id="presentation">
+          Veille technologique : Interopérabilité des Systèmes de santé
+         </h1>
+  <div class="projets_ecole, projets_ecole_" id="projets_ecole">
+         <h2>
+          Définition:
+         </h2>
+         <img src="./asset/34227134-1024x1024.jpg" alt="image Interopérabilité">
 
-      <main>
-         <div class="presentation">
-           <p>
-            L'intéropérabilité des systèmes de santé est la capacité des différents systèmes à communiquer entre eux, en l'occurence, c'est la capacité des différents systèmes de santé, qui ont différentes créateurs et différentes finalités à s'échanger librement et sans gêne des données de santé, tout en gardant l'intégrité des données. <br>
-          Raison du choix de ce sujet de veille:
-          lors de mon stage chez Dedalus, mon tuteur a organisé une séance ou la cheffe du projet SEGUR de la santé chez Dedalus, Catherine  Arnaud-Bans, me présente un peu ce qu'est ce projet.
-          Elle m'a expliqué alors les différentes dimensions du projet, et comment c'est important surtout dans la mise en place du projet <b>"Dossier Médical Partagé"</b>.        </p>
-         </div>
+        L'Interopérabilité des systèmes de santé est la capacité de différentes structures de santé à communiquer et à échanger des informations et des données entre elles, sans encombre et sans perte d'intégrité des données, 
+        et ceci même si elle sont écrites pour des buts différents, par des fabricants différents et dans des languages différents.
          <ul>
-            <li>Normes et protocoles d'interopérabilité,</li>
-            L'interopérabilité dans les systèmes de santé a commencé à se mettre en place dans les années 1990, à l'avenemment de la technologie informatique.
-            Cela s'est mis en place avec des normes sémantiques qui rendent la communication et le transfert des données plus simples
-            <li>Avantages et opportunités de l'interopérabilité </li>
-            <li>Problème soulevés et obstacles</li>
+          <li>
+              <h3>Pourquoi ce sujet ? :</h3>
+              Parce que le monde va de plus en plus vers la télémedecine, vers le partage de soins, et que donc les informations médicales doivent être accessibles depuis plusieurs endroits.
+              <br>
+              Parce que les DPI Dedalus font partie des logiciels Certifiés Segur compatibles,
+              <br>
+              Parce que rendre les données interopérables c'est améliorer et accélerer le processus de soins pour plusieurs patients.
+          </li>
+          <li>
+              <h3>Mes Outils de veille :</h3>
+              <ol>
+                  <li>
+                      L'Agence Nationale pour le Numérique en Santé, et leur newsLetter mensuelle.
+                  </li>
+                  <li>
+                      Le site web Interop'santé, ressence les dernières publications sur le sujet, et regroupe les pricipaux acteurs en France de l'Interopérabilité.
+                  </li>
+                  <li>
+                     Le site Web heathCareIT, qui regroupe les dernières informations et nouveautés mondiales sur le la e-santé, mais qui possède quand même une rubrique dédiée à l'Interopérabilité.
+                  </li>
+              </ol>
+          </li>
+          <li>
+              <h3>Les différentes normes d'Interopérabilité</h3>
+              Il en existe plusieurs, mais on va citer les plus connues, et les plus utilisées:
+              <ol>
+                <li>
+                    <h4>Les normes FIHR (Fast Healthcare Interoperability Resources) HL7</h4>
+                    <img src="./asset/hl6986h33c-hl7-logo-home-.png" alt="hl7FIHR logo">
+
+                    Utilisées pour les données cliniques et administratives du parcours de soins.
+                    <br>
+                    Cette nomenclature s'appuis sur des <b>ressources</b>,pour représenter les données de santé. Chaque ressource correspond à un concept spécifique, comme un patient, une observation ou un médicament. Ces ressources peuvent être combinées et étendues pour supporter divers scénarios de santé.
+                    <br>
+                    Cette norme est très étendue car elle est compatible avec les API REST, et supporte plusieurs formats de données, tout comme le JSON ou le Xml.
+                </li>
+                <li>
+                    <h4>Les normes LOINC (Logical Observation Identifiers Names and Codes)</h4>
+                    <img src="./asset/loinc.png" alt="loinc logo">
+
+                    <br>
+                    Cette nomenclature est surtout utilisée pour le codage des résultats de laboratoires, elle est adoptée dans 49 pays, dont la France.
+                </li>
+                <li>
+                  <h4>Les normes DICOM (Digital Imaging and Communications in Medicine) :</h4>
+                   <img src="./asset/DICOM_940x550_v2.png" alt="DICOM logo">
+
+                  <br>
+                  DICOM est une norme utilisée pour la transmission, le stockage et la communication des images médicales, telles que les radiographies, les IRM et les échographies.
+                </li>
+            </ol>
+          </li>
          </ul>
-         
-      </main>
+  
+         <h2>
+          Nouveautés :
+         </h2>
+         <h3>
+           Adoption du réglement Européen des Données de santé      
+          </h3>
+          Le but de cet espace Européen est de pouvoir soigner les citoyens des 27 pays membres ou qu'ils soient.
+          Il passe bien sûre par l'adoption de règles communes de nomenclatures et de sémantique.
+              <img src="./asset/eeds.png" alt="espace europen des données de santé">
       
-<footer>
-  <div class="contact">
-    <p>Pour me contacter : </p>
-    <a href="https://linkedin.com/in/ounissa-sadaoui-227529263" target="_blank" aria-label="accès à ma page linkedin"><i class="fa-brands fa-linkedin fa-2xl custom-icon" aria-hidden="true"></i></a>
-    <a href="https://github.com/ounissaSadaoui" target="_blank" aria-label="accès à ma page github"> <i class="fa-brands fa-github fa-2xl custom-icon" aria-hidden="true"></i></a>
-    <a href="mailto:ounissasadaoui@gmail.com" aria-label="m'envoyer un mail"><i class="fa-solid fa-envelope fa-2xl custom-icon" aria-hidden="true"></i></a>
-  </div>
-  <p>@Ounissa 2023-2024 </p>
-</footer>
- </body>
- </html>
+  </section>
+  <script src="./js/script.js"></script>
+
+  </main>
+  <footer id="contact">
+    <div class="contact" >
+      <p>Pour me contacter : </p>
+      <a href="https://linkedin.com/in/ounissa-sadaoui-227529263" target="_blank" aria-label="accès à ma page linkedin"><i class="fa-brands fa-linkedin fa-2xl custom-icon" aria-hidden="true"></i></a>
+      <a href="https://github.com/ounissaSadaoui" target="_blank" aria-label="accès à ma page github"> <i class="fa-brands fa-github fa-2xl custom-icon" aria-hidden="true"></i></a>
+      <a href="mailto:ounissasadaoui@gmail.com" aria-label="m'envoyer un mail"><i class="fa-solid fa-envelope fa-2xl custom-icon" aria-hidden="true"></i></a>
+    </div>
+    <p>@Ounissa 2023-2024 </p>
+  </footer>
+  </body>
+  </html>
