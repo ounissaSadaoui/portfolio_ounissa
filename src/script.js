@@ -1,44 +1,6 @@
-//  activer/désactiver le mode sombre avec le btn
-/*
-const darkModeButton = document.getElementById('darkmode');
 
-// Ajoute un écouteur d'événements sur le bouton
-darkModeButton.addEventListener('click', function() {
-    // ici on  Vérifie si le mode sombre est déjà activé 
-    const body = document.body;
-    const navbar = document.querySelector('ul');
-    const isDarkMode = body.classList.contains('darkmode');
-
-    const bitmoji = document.getElementById('Mon-bitmoji');
-    console.log (bitmoji);
-    //là on select les icones
-    let icone_select = document.querySelectorAll("a i");
-    let icones = document.querySelectorAll("figure i");
-    const presentationSection = document.getElementById('fig_presentation');
-
-    // Si le mode sombre est activé, désactive-le
-    if (isDarkMode) {
-        body.classList.remove('darkmode');
-        // Supprime les styles spécifiques au mode sombre
-        body.style.backgroundImage = ''; // Réinitialise l'image de fond
-        body.style.color = ''; 
-        navbar.style.backgroundColor ='';
-        bitmoji.src = 'asset/hello.png';     
-        presentationSection.style.backgroundColor = '';   
-
-    } else { // Sinon, active-le
-        body.classList.add('darkmode');
-        // Applique les styles pour le mode sombre
-        body.style.backgroundImage = 'url(./asset/galaxy.jpg)'; // Change l'image de fond
-        body.style.color = 'white'; // Change la couleur du texte en blanc
-        navbar.style.backgroundColor ='rgb(53, 49, 49)';
-        bitmoji.src = "asset/hi.png";  
-        presentationSection.style.backgroundColor = 'rgb(53, 49, 49)';  
-
-    }
-});
-*/
 document.getElementById('darkmode').addEventListener('click', function () {
+
     const body = document.body;
     const bitmoji = document.getElementById('Mon-bitmoji');
     const icons = document.querySelectorAll('.custom-icon');
@@ -52,6 +14,7 @@ document.getElementById('darkmode').addEventListener('click', function () {
     const veille = document.getElementById('veille');
     const contact = document.getElementById('contact');
     const nav = document.getElementById('nav');
+    const bouton = document.querySelector('button');
 
 
     body.classList.toggle('dark-mode');
@@ -61,6 +24,7 @@ document.getElementById('darkmode').addEventListener('click', function () {
         body.style.color = 'white'; // Change la couleur du texte en blanc
         nav.style.backgroundColor = '#4d4d4d';
         contact.style.backgroundColor = '#4d4d4d';
+        bouton.style.backgroundColor = '#4d4d4d';
         icons.forEach(icon => {
             icon.style.color = '#ffffff';
         });
@@ -78,6 +42,8 @@ document.getElementById('darkmode').addEventListener('click', function () {
         body.style.color = ''; 
         contact.style.backgroundColor = '';
         nav.style.backgroundColor = '';
+        bouton.style.backgroundColor = '';
+
         icons.forEach(icon => {
             icon.style.color = '#000000';
         });

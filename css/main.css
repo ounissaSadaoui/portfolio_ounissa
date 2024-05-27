@@ -1,34 +1,45 @@
-  header ul, button {
+  header ul {
     position: fixed;
     top: 0;
     display: flex;
     flex-wrap: wrap ;
     justify-content: space-between;
     background-color: #E2AE87;
-    width: 100%;
+    width: 85%;
     height: 8vh;
     z-index: 1000;
     padding: 1rem;
     align-items: flex-start;
   } 
-
+  header button {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    background-color: #E2AE87;
+    width: 15%;
+    height: 8vh;
+    z-index: 0;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    align-items: flex-end;
+  }
 body{
   background :url(../asset/todd-trapani-hCdMjrL5C0Y-unsplash.jpg) center center/ cover fixed;
 }
-
-/* li:first-child {
-  margin-left: 0; 
-} */
 
 ul{
   right :0;
 }
 
-.custom-icon {
-  font-size: 2.6rem; /* taille de police pour les icônes */
+li > a > .custom-icon , button > .custom-icon{
+  font-size: 2.4rem; /* taille de police pour les icônes */
   color: #000000;
   padding-top: 1.6rem ;
 }
-
+.nav {
+ width: 60%;
+}
 
 
